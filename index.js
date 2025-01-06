@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         count--;
         textElement.textContent = count;
     });
-
+    // it wii increase the count
     incrementButton.addEventListener('click', function() {
         count++;
         textElement.textContent = count;
